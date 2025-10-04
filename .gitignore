@@ -1,0 +1,106 @@
+# =======================================
+# Blazor WebAssembly / .NET Core
+# =======================================
+
+# Build results
+[Bb]in/
+[Oo]bj/
+out/
+Debug/
+Release/
+
+# User-specific files
+*.user
+*.userosscache
+*.suo
+*.sln.docstates
+*.vspscc
+*.vssscc
+*.pdb
+*.log
+
+# Visual Studio Code settings
+.vscode/
+.history/
+*.code-workspace
+
+# macOS system files
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon?
+__MACOSX/
+
+# ASP.NET / Blazor related
+wwwroot/dist/
+wwwroot/build/
+wwwroot/node_modules/
+wwwroot/lib/
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+*.cache
+*.gz
+*.br
+
+# NuGet packages
+*.nupkg
+*.snupkg
+*.nuspec
+*.nuget.props
+*.nuget.targets
+*.nuget.cache
+packages/
+*.lock.json
+*.deps.json
+
+# Rider / JetBrains IDEs
+.idea/
+*.sln.iml
+
+# Environment files
+.env
+.env.*
+
+# Publish output
+publish/
+*.pubxml
+*.pubxml.user
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.swp
+*.swo
+
+# Coverage / Testing
+TestResults/
+coverage/
+coverage*.json
+coverage*.xml
+*.coverage
+*.coveragexml
+
+# Logs
+logs/
+*.log
+
+# Git merge / patch artifacts
+*.orig
+*.rej
+
+# Local tools
+tools/
+.local/
+.vs/
+.vscode-test/
+
+# Blazor build cache
+bin/
+obj/
+*.blazor.config
+*.blazor.publish.log
+*.blazor.publish.json
